@@ -1,0 +1,30 @@
+{
+  "name": "surplusify",
+  "version": "0.0.1",
+  "description": "A browserify transform for compiling Surplus JSX views",
+  "keywords": [
+    "browserify",
+    "surplus",
+    "jsx",
+    "s-js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamhaile/surplusify"
+  },
+  "author": "Adam Haile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamhaile/surplusify/issues"
+  },
+  "homepage": "https://github.com/adamhaile/surplusify",
+  "dependencies": {
+    "through2": "^2.0.3",
+    "surplus-preprocessor": "^0.4.3"
+  },
+  "devDependencies": {}
+}
