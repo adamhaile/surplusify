@@ -1,13 +1,13 @@
 "use strict";
 
 var through = require("through2"),
-    preprocessor = require("surplus-preprocessor");
+    compiler = require("surplus/compiler");
 
 module.exports = function surplusify(file) {
     return through(function (buf, enc, next) {
         try {
             var raw = buf.toString('utf8'),
-                processed = preprocessor.preprocess(raw);
+                processed = compiler.compile(raw);
 
             this.push(processed);
         } catch (e) {
