@@ -1,6 +1,6 @@
 {
   "name": "surplusify",
-  "version": "0.5.0-beta1",
+  "version": "0.5.0",
   "description": "A browserify transform for compiling Surplus JSX views",
   "keywords": [
     "browserify",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/adamhaile/surplusify",
   "peerDependencies": {
-    "surplus": "^0.5.0-beta1"
+    "surplus": "^0.5.0"
   },
   "dependencies": {
     "through2": "^2.0.3"
